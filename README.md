@@ -18,7 +18,7 @@ The tool will take a directory path and a file name pattern from the user as inp
 Select the correct version of the tool for your system (32 or 64 bit), open a prompt and use the command line below to run the tool:
 
 ```
-C:\> falcon_uploader.exe -d <SOURCE DIRECTORY> -c <COLLECTION NAME> -p <FILE NAME PATTERN> -b <BUCKET NAME> -k <AWS KEY ID> -s <AWS SECRET ACESS KEY>
+C:\> falcon_uploader.exe -d <SOURCE DIRECTORY> -c <COLLECTION NAME> -p <FILE NAME PATTERN> -b <BUCKET NAME> -k <AWS KEY ID> -s <AWS SECRET ACCESS KEY>
 ```
 
 The tool must be executed with administrator privileges if the target files are located inside protect Windows directories like "C:\Windows".
